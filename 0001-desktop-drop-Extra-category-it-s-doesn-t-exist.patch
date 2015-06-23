@@ -1,0 +1,25 @@
+From 8a37f68f046962d98c44a586ec3eed6dab43564d Mon Sep 17 00:00:00 2001
+From: Igor Gnatenko <ignatenko@gnome.org>
+Date: Tue, 23 Jun 2015 12:53:55 +0300
+Subject: [PATCH] desktop: drop 'Extra' category, it's doesn't exist
+
+Signed-off-by: Igor Gnatenko <ignatenko@gnome.org>
+---
+ data/org.gnome.Todo.desktop.in.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data/org.gnome.Todo.desktop.in.in b/data/org.gnome.Todo.desktop.in.in
+index 9e43223..c58ac51 100644
+--- a/data/org.gnome.Todo.desktop.in.in
++++ b/data/org.gnome.Todo.desktop.in.in
+@@ -7,6 +7,6 @@ Terminal=false
+ Type=Application
+ StartupNotify=true
+ OnlyShowIn=GNOME;
+-Categories=GNOME;GTK;Utility;Extra;
++Categories=GNOME;GTK;Utility;
+ _Keywords=Task;Productivity;
+ DBusActivatable=true
+-- 
+2.4.4
+
